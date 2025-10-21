@@ -8,7 +8,7 @@ function cadastrar(QprodutosCadastrados){
     for(i = 0; i < QprodutosCadastrados;i++){
         const nomeProduto = prompt('Qual o nome do produto a ser cadastrado? ')
         const preco = Number(prompt('Qual o valor desse produto? '))
-        const quantidade = Number(prompt('Quantos desses produtos há no estoque?'))
+        const quantidade = Number(prompt('Quantos dessesgit  produtos há no estoque?'))
 
         Produto.push({
             nome: nomeProduto,
